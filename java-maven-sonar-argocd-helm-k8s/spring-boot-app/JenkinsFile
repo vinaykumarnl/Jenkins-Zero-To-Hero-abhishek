@@ -16,6 +16,13 @@ pipeline {
       steps {
         sh 'ls -ltr'
         // build the project and create a JAR file
+sh "sudo apt update &&
+sudo apt install openjdk-17-jdk &&
+java --version &&
+sudo apt update &&
+sudo apt install maven && 
+mvn --version
+"
         sh 'cd java-maven-sonar-argocd-helm-k8s/spring-boot-app && mvn clean package'
       }
     }
