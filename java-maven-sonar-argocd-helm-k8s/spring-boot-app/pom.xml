@@ -62,7 +62,7 @@
      <plugin>
     <groupId>org.sonarsource.scanner.maven</groupId>
     <artifactId>sonar-maven-plugin</artifactId>
-    <version>10.4.1.88267</version> <!-- Explicit version added -->
+    <version>2.6</version> <!-- Explicit version added -->
 </plugin>
 
             <plugin>
